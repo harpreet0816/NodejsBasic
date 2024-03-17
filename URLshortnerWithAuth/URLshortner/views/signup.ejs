@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <h1>if you are existing user, please click on the below button </h1>
+    <a href="/login" style="color: #00ff26;font-size: xx-large;">login for existing users</a>
+    <h1>Signup</h1>
+    <form action="/user/signup" method="post">
+      <div>
+      <label>Full Name</label>
+      <input type="text" required name="name" />
+    </div>
+    <div>
+      <label>Email</label>
+      <input type="text" required name="email" />
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="text" required name="password" />
+    </div>
+      <button type="submit">Signup</button>
+    </form>
+    
+  </body>
+</html>
